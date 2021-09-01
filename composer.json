@@ -1,0 +1,19 @@
+{
+    "name": "turbin/pse",
+    "description": "PSE - A simple Laravel package",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "xiaowilz",
+            "email": "xiaowilz@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Turbin\\Pse\\": "src/"
+        }
+    },
+    "require": {}
+}
