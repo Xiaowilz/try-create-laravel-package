@@ -3,7 +3,6 @@
 namespace Turbin\Pse\Services\Impl;
 
 
-use App\Http\Requests\UpdateProductRequest;
 use Turbin\Pse\Repositories\ProductRepository;
 use Turbin\Pse\RequestModels\CreateProductRequestModel;
 use Turbin\Pse\RequestModels\UpdateProductRequestModel;
@@ -11,7 +10,6 @@ use Turbin\Pse\Resources\Database;
 use Turbin\Pse\ResponseModels\CreateProductResponseModel;
 use Turbin\Pse\ResponseModels\FindAllProductResponseModel;
 use Turbin\Pse\ResponseModels\FindProductResponseModel;
-use Turbin\Pse\ResponseModels\UpdateProductResponseModel;
 use Turbin\Pse\Services\ProductService;
 
 class ProductServiceImpl implements ProductService
